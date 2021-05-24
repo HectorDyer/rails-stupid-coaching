@@ -1,0 +1,39 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+$cream: #faf2da;
+
+body {
+  background-color: $cream;
+}
+
+.container {
+  margin: 0 auto;
+  width: 400px;
+  height: 220px;
+  background-color: #f6dfeb;
+  padding: 100px;
+  border: solid black;
+  margin-top: 24px;
+}
+
+h1 {
+  font-weight: bold;
+  padding-bottom: 20px;
+  border-bottom: solid black;
+}
+
+.question {
+  background-color: $cream;;
+}
+
+.answer {
+  background-color: $cream;;
+}
+
+.link {
+  text-decoration: none;
+  color: $cream;
+}
